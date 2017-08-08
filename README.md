@@ -40,10 +40,28 @@ Design/train a MLP in mxnet
      
 	|Comparison              | MLP | Your Network
 	
-	|Acc(5 epoch)            | 0.9731| 0.9982
+	|Acc(5 epoch)            |
 
-	|CPU Epoch time          | 2.152 | 519
+	|CPU Epoch time          |
 	
 	|GPU Epoch Time(optional)|
     
-  
+## Week3 
+### Goal: be ready to do a deep learning project
+
+	1. Understand mxnet data io, get/convert/ data
+	2. Build network either from scratch or from others' work
+	3. Sanity check by predict a random image before training.
+	4. Overfit a very small dataset
+	5. Full-scale training 
+	6. Testing 
+
+### HW 
+
+Homework is "https://github.com/BitTiger-MP/DS502-AI-Engineer/blob/master/DS502-1702/MXNET_course/mxnet-week3/HW3/Homework3.ipynb"
+
+run "sh download_data.sh" to download the cifar 10 rec file. 
+
+Finish all the "???" and TODO in the ipynb file. Run the jpynb file succefully and post the link to issue. 
+
+(Optional) Fully train cifar10 (if you have GPU) to be converged. Try different network (vgg, resnet, ...) and other hyperparameters (random search)
