@@ -2,7 +2,7 @@ import mxnet as mx
 from symbol import get_resnet_model
 import numpy as np 
 from data_ulti import get_iterator
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 import logging
 import sys
